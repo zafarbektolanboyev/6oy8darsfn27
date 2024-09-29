@@ -1,0 +1,48 @@
+/* Umumiy mahsulot konteyneri */
+.products-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Grid bo'yicha mahsulot kartalari */
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Mahsulot kartasi */
+  .product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Karta ichidagi matn */
+  .product-card h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Karta narxi */
+  .product-card p:first-of-type {
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
