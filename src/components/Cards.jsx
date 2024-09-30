@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Cards.css';  // CSS faylini import qilish
+import './Cards.css';
 
 function Cards() {
   const [products, setProducts] = useState([]);

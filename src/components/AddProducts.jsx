@@ -38,7 +38,6 @@ function AddProduct({ addProduct }) {
         setErrorMessage('Error adding product: ' + error.message);
       });
   };
-
   return (
     <div className="add-product-container">
       <h1>Add New Product</h1>
